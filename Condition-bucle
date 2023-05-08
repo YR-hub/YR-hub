@@ -1,0 +1,49 @@
+let num = 5;
+
+if (num > 0) {
+  console.log("positive");
+} else if (num < 0) {
+  console.log("negative");
+} else {
+  console.log(0);
+}
+
+
+let num = 0;
+
+while (num < 3) {
+  num ++;
+  console.log(num);
+}
+
+let num = 0;
+
+do {
+  num ++;
+  console.log(num);
+} while (nume < 3);
+
+for (let num = 0; num <= 3; num++) {
+  console.log(num);
+}
+
+let estacion = "verano";
+
+switch (estacion) {
+  case "invierno":
+    console.log("Estamos en invierno");
+    break;
+  case "primavera":
+    console.log("Estamos en primavera");
+    break;
+  case "verano":
+    console.log("Estamos en verano");
+    break;
+  case "otoño":
+    console.log("Estamos en otoño");
+    break;
+  default:
+    console.log("El valor de la variable no es una estación");
+    break;
+}
+
