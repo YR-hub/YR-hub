@@ -1,27 +1,15 @@
-class Persona:
-    def __init__(self, edad, nombre, telefono):
-        self.edad = edad
-        self.nombre = nombre
-        self.telefono = telefono
+public static void main(String[] args) {
+    // Aquí escribe el código para imprimir los datos de las sesiones
+}
 
-class Cliente(Persona):
-    def __init__(self, edad, nombre, telefono, credito):
-        super().__init__(edad, nombre, telefono)
-        self.credito = credito
+int edad = 25;
+long poblacion = 46660000L;
+double pi = 3.14159;
+boolean esMayorDeEdad = true;
+String nombre = "Juan";
 
-cliente1 = Cliente(30, "Juan", "123456789", 5000)
-print(cliente1.edad)
-print(cliente1.nombre)
-print(cliente1.telefono)
-print(cliente1.credito)
-
-class Trabajador(Persona):
-    def __init__(self, edad, nombre, telefono, salario):
-        super().__init__(edad, nombre, telefono)
-        self.salario = salario
-
-trabajador1 = Trabajador(25, "Maria", "987654321", 15000)
-print(trabajador1.edad)
-print(trabajador1.nombre)
-print(trabajador1.telefono)
-print(trabajador1.salario)
+System.out.println("Edad: " + edad);
+System.out.println("Población: " + poblacion);
+System.out.println("Pi: " + pi);
+System.out.println("¿Es mayor de edad?: " + esMayorDeEdad);
+System.out.println("Nombre: " + nombre);
